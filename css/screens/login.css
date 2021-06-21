@@ -1,0 +1,48 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcome-header {
+  margin-top: 330px;
+  text-align: center;
+  background-color: white;
+  opacity: 0.5;
+  padding: 30px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.welcome-header__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.select-character {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  opacity: 0;
+}
+
+.select-character__taki {
+  width: 100px;
+  height: 340px;
+  margin-right: 240px;
+  cursor: pointer;
+}
+
+.select-character__mitsuha {
+  width: 105px;
+  height: 265px;
+  margin-top: 55px;
+  cursor: not-allowed;
+}
+
+.background-img {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}

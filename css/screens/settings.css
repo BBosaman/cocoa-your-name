@@ -1,0 +1,39 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  justify-content: space-between;
+  color: black;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
+
+.settings-list {
+  margin-top: 100px;
+}
+
+.settings-song {
+  font-weight: 900;
+  color: white;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 38px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.settings-songTitle {
+  margin-bottom: 50px;
+}
